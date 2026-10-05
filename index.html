@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>সাফা খোরমা | বিশেষ অফার ৭৯০ টাকা</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,"Noto Sans Bengali",sans-serif;
+  background:#fffaf2;
+  color:#222;
+  line-height:1.75;
+}
+
+.container{
+  width:92%;
+  max-width:1100px;
+  margin:auto;
+}
+
+.topbar{
+  background:#126b3a;
+  color:#fff;
+  text-align:center;
+  padding:10px;
+  font-weight:bold;
+}
+
+.hero{
+  background:linear-gradient(135deg,#fff3d5,#edf8ef);
+  padding:45px 0 55px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.badge{
+  display:inline-block;
+  background:#e49a13;
+  color:#fff;
+  padding:6px 16px;
+  border-radius:30px;
+  font-weight:bold;
+  margin-bottom:15px;
+}
+
+h1{
+  color:#126b3a;
+  font-size:52px;
+  line-height:1.15;
+  margin-bottom:15px;
+}
+
+.hero-text{
+  font-size:19px;
+  color:#555;
+}
+
+.price{
+  margin:20px 0;
+}
+
+.old-price{
+  color:#888;
+  text-decoration:line-through;
+  font-size:21px;
+  margin-right:10px;
+}
+
+.new-price{
+  color:#d62828;
+  font-size:38px;
+  font-weight:900;
+}
+
+.btn{
+  display:inline-block;
+  background:#d62828;
+  color:#fff;
+  text-decoration:none;
+  padding:15px 28px;
+  border-radius:12px;
+  font-size:19px;
+  font-weight:bold;
+  border:none;
+  cursor:pointer;
+}
+
+.product-image{
+  text-align:center;
+}
+
+.product-image img{
+  width:100%;
+  max-width:450px;
+  max-height:500px;
+  object-fit:contain;
+  border-radius:20px;
+}
+
+/* Sections */
+
+section{
+  padding:55px 0;
+}
+
+.title{
+  text-align:center;
+  color:#126b3a;
+  font-size:34px;
+  margin-bottom:30px;
+}
+
+/* Video */
+
+.video-section{
+  background:#f1f8ef;
+}
+
+.video-box{
+  max-width:700px;
+  margin:auto;
+  background:#000;
+  border-radius:18px;
+  overflow:hidden;
+}
+
+.video-box video{
+  width:100%;
+  display:block;
+}
+
+/* Benefits */
+
+.benefit-section{
+  background:#fff;
+}
+
+.benefit-intro{
+  text-align:center;
+  max-width:760px;
+  margin:-10px auto 30px;
+  color:#666;
+}
+
+.benefit-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+
+.benefit-card{
+  background:linear-gradient(145deg,#fff,#f3faef);
+  border:1px solid #dcebdc;
+  border-left:6px solid #126b3a;
+  padding:24px;
+  border-radius:16px;
+  box-shadow:0 5px 20px rgba(0,0,0,.07);
+}
+
+.benefit-card h3{
+  color:#126b3a;
+  font-size:21px;
+  margin-bottom:8px;
+}
+
+.benefit-card p{
+  color:#444;
+  font-size:16px;
+}
+
+.benefit-icon{
+  font-size:32px;
+  margin-bottom:5px;
+}
+
+.highlight{
+  color:#d62828;
+  font-weight:bold;
+}
+
+/* Disclaimer */
+
+.disclaimer{
+  background:#fff7e6;
+  border:1px solid #f1d49a;
+  border-radius:14px;
+  padding:18px;
+  margin-top:25px;
+  color:#765b24;
+  font-size:14px;
+  text-align:center;
+}
+
+/* Details */
+
+.details{
+  background:#f3f8ee;
+}
+
+.details-box{
+  max-width:750px;
+  margin:auto;
+  background:#fff;
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 5px 20px rgba(0,0,0,.06);
+}
+
+.detail-row{
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  padding:13px 0;
+  border-bottom:1px dashed #ddd;
+}
+
+.detail-row:last-child{
+  border-bottom:none;
+}
+
+/* Offer */
+
+.offer{
+  background:#126b3a;
+  color:white;
+  padding:45px 20px;
+  border-radius:22px;
+  text-align:center;
+}
+
+.offer h2{
+  font-size:35px;
+}
+
+.offer .new-price{
+  color:#ffd451;
+}
+
+/* Order */
+
+.order-section{
+  background:#fff3d8;
+}
+
+form{
+  max-width:650px;
+  margin:auto;
+  background:#fff;
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 7px 25px rgba(0,0,0,.1);
+}
+
+label{
+  display:block;
+  font-weight:bold;
+  margin:12px 0 5px;
+}
+
+input,
+textarea,
+select{
+  width:100%;
+  padding:13px;
+  border:1px solid #ccc;
+  border-radius:10px;
+  font-size:16px;
+}
+
+textarea{
+  height:90px;
+}
+
+.submit{
+  width:100%;
+  margin-top:20px;
+  background:#d62828;
+  color:white;
+  border:none;
+  padding:15px;
+  border-radius:11px;
+  font-size:19px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+/* FAQ */
+
+.faq{
+  max-width:800px;
+  margin:auto;
+}
+
+details{
+  background:white;
+  padding:17px;
+  border-radius:12px;
+  margin:10px 0;
+  border:1px solid #eee;
+}
+
+summary{
+  color:#126b3a;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+  background:#103e29;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+/* Floating button */
+
+.float-btn{
+  position:fixed;
+  right:15px;
+  bottom:15px;
+  background:#d62828;
+  color:white;
+  text-decoration:none;
+  padding:13px 20px;
+  border-radius:50px;
+  font-weight:bold;
+  box-shadow:0 5px 20px rgba(0,0,0,.3);
+  z-index:99;
+}
+
+/* Mobile */
+
+@media(max-width:750px){
+
+  .hero-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .product-image{
+    order:-1;
+  }
+
+  h1{
+    font-size:38px;
+  }
+
+  .new-price{
+    font-size:32px;
+  }
+
+  .benefit-grid{
+    grid-template-columns:1fr;
+  }
+
+  .title{
+    font-size:28px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOP OFFER -->
+
+<div class="topbar">
+🔥 সীমিত সময়ের বিশেষ অফার — সাফা খোরমা মাত্র ৭৯০ টাকা
+</div>
+
+
+<!-- HERO -->
+
+<header class="hero">
+
+<div class="container hero-grid">
+
+<div>
+
+<span class="badge">🔥 SPECIAL OFFER</span>
+
+<h1>সাফা খোরমা</h1>
+
+<p class="hero-text">
+স্বাদ ও গুণে পছন্দের খোরমা।  
+দৈনন্দিন জীবনে উপভোগ করার জন্য একটি খেজুরজাত খাদ্যপণ্য।
+</p>
+
+<div class="price">
+
+<span class="old-price">৯০০ টাকা</span>
+
+<span class="new-price">৭৯০ টাকা</span>
+
+</div>
+
+<a href="#order" class="btn">
+🛒 এখনই অর্ডার করুন
+</a>
+
+</div>
+
+
+<div class="product-image">
+
+<img src="product.jpg" alt="সাফা খোরমা ৪৫০ গ্রাম">
+
+</div>
+
+</div>
+
+</header>
+
+
+<!-- PRODUCT VIDEO -->
+
+<section class="video-section">
+
+<div class="container">
+
+<h2 class="title">
+🎥 সাফা খোরমা দেখুন
+</h2>
+
+<div class="video-box">
+
+<video controls poster="product.jpg">
+
+<source src="product-video.mp4" type="video/mp4">
+
+আপনার ব্রাউজার ভিডিওটি চালাতে পারছে না।
+
+</video>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- MAIN BENEFITS -->
+
+<section class="benefit-section">
+
+<div class="container">
+
+<h2 class="title">
+🌿 সাফা খোরমার উপকারিতা
+</h2>
+
+<p class="benefit-intro">
+সাফা খোরমা সম্পর্কে প্রচারিত ব্যবহার ও উপকারিতাগুলো নিচে সুন্দরভাবে তুলে ধরা হলো।
+</p>
+
+
+<div class="benefit-grid">
+
+
+<!-- 1 -->
+
+<div class="benefit-card">
+
+<div class="benefit-icon">💪</div>
+
+<h3>
+শারীরিক ও যৌন শক্তি বৃদ্ধি
+</h3>
+
+<p>
+শরীরের সাধারণ দুর্বলতা দূর করে
+<strong>শক্তি ও স্ট্যামিনা বাড়িয়ে তোলে</strong>—
+এমনটি পণ্যের প্রচারে উল্লেখ করা হয়।
+</p>
+
+</div>
+
+
+<!-- 2 -->
+
+<div class="benefit-card">
+
+<div class="benefit-icon">🧬</div>
+
+<h3>
+শুক্রাণুর ঘনত্ব বৃদ্ধি
+</h3>
+
+<p>
+শুক্র স্বল্পতা দূর করা এবং শরীরে
+<strong>শুক্রাণুর পরিমাণ বা ঘনত্ব বৃদ্ধি করতে সাহায্য করে</strong>—
+এমন দাবি পণ্যের প্রচারে করা হয়।
+</p>
+
+</div>
+
+
+<!-- 3 -->
+
+<div class="benefit-card">
+
+<div class="benefit-icon">❤️</div>
+
+<h3>
+বীর্য ঘন করা
+</h3>
+
+<p>
+পাতলা বীর্যকে
+<strong>ঘন ও শক্ত করতে সাহায্য করে</strong>—
+এমন প্রচারিত ব্যবহার এই পণ্যের সঙ্গে উল্লেখ করা হয়।
+</p>
+
+</div>
+
+
+<!-- 4 -->
+
+<div class="benefit-card">
+
+<div class="benefit-icon">💧</div>
+
+<h3>
+প্রস্রাবের সমস্যা ও প্রমেহ
+</h3>
+
+<p>
+প্রস্রাবের সাথে ধাতু যাওয়া বা
+<strong>প্রস্রাবে জ্বালাপোড়ার মতো সমস্যার</strong>
+জন্য উপকারী হিসেবে পণ্যটি প্রচার করা হয়।
+</p>
+
+</div>
+
+
+<!-- 5 -->
+
+<div class="benefit-card">
+
+<div class="benefit-icon">⚡</div>
+
+<h3>
+যৌন সক্ষমতা ধরে রাখা
+</h3>
+
+<p>
+<strong>প্রজনন স্বাস্থ্য ভালো রাখতে</strong>
+এবং যৌন দুর্বলতা দূর করতে সহায়তা করে—
+এমন প্রচারিত দাবি রয়েছে।
+</p>
+
+</div>
+
+
+<!-- Extra -->
+
+<div class="benefit-card">
+
+<div class="benefit-icon">🌴</div>
+
+<h3>
+খেজুরজাত খাদ্যপণ্য
+</h3>
+
+<p>
+খেজুরজাত একটি খাদ্যপণ্য হিসেবে
+দৈনন্দিন খাবারের সঙ্গে উপভোগ করা যায়।
+</p>
+
+</div>
+
+</div>
+
+
+<div class="disclaimer">
+
+<strong>গুরুত্বপূর্ণ তথ্য:</strong><br>
+
+উপরের স্বাস্থ্য-সংক্রান্ত তথ্যগুলো পণ্যের প্রচারিত ব্যবহার/দাবির ভিত্তিতে দেওয়া হয়েছে।
+এগুলো কোনো রোগের চিকিৎসা বা নিরাময়ের নিশ্চয়তা নয়।
+কোনো স্বাস্থ্য সমস্যা থাকলে চিকিৎসকের পরামর্শ নিন।
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PRODUCT DETAILS -->
+
+<section class="details">
+
+<div class="container">
+
+<h2 class="title">
+📦 পণ্যের বিস্তারিত
+</h2>
+
+<div class="details-box">
+
+<div class="detail-row">
+<strong>পণ্যের নাম</strong>
+<span>সাফা খোরমা</span>
+</div>
+
+<div class="detail-row">
+<strong>পরিমাণ</strong>
+<span>৪৫০ গ্রাম</span>
+</div>
+
+<div class="detail-row">
+<strong>নিয়মিত মূল্য</strong>
+<span>৯০০ টাকা</span>
+</div>
+
+<div class="detail-row">
+<strong>বিশেষ অফার</strong>
+<span class="highlight">৭৯০ টাকা</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- OFFER -->
+
+<section>
+
+<div class="container">
+
+<div class="offer">
+
+<h2>
+🔥 আজকের বিশেষ অফার
+</h2>
+
+<p>
+
+<span class="old-price">৯০০ টাকা</span>
+
+<span class="new-price">৭৯০ টাকা</span>
+
+</p>
+
+<p>
+সীমিত সময়ের জন্য বিশেষ মূল্য।
+</p>
+
+<br>
+
+<a href="#order" class="btn">
+অর্ডার করতে নিচে যান
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ORDER -->
+
+<section class="order-section" id="order">
+
+<div class="container">
+
+<h2 class="title">
+🛒 অর্ডার করুন
+</h2>
+
+<form id="orderForm">
+
+<label>
+আপনার নাম *
+</label>
+
+<input
+type="text"
+id="name"
+placeholder="আপনার পূর্ণ নাম"
+required
+>
+
+
+<label>
+মোবাইল নম্বর *
+</label>
+
+<input
+type="tel"
+id="phone"
+placeholder="01XXXXXXXXX"
+required
+>
+
+
+<label>
+ডেলিভারি ঠিকানা *
+</label>
+
+<textarea
+id="address"
+placeholder="বাসা/গ্রাম, থানা, জেলা"
+required></textarea>
+
+
+<label>
+কত প্যাক নেবেন?
+</label>
+
+<select id="quantity">
+
+<option value="1">
+১ প্যাক — ৭৯০ টাকা
+</option>
+
+<option value="2">
+২ প্যাক
+</option>
+
+<option value="3">
+৩ প্যাক
+</option>
+
+</select>
+
+
+<button type="submit" class="submit">
+🛒 অর্ডার কনফার্ম করুন
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section>
+
+<div class="container faq">
+
+<h2 class="title">
+❓ সাধারণ প্রশ্ন
+</h2>
+
+
+<details>
+
+<summary>
+এক প্যাকে কত গ্রাম?
+</summary>
+
+<p>
+একটি প্যাকে ৪৫০ গ্রাম সাফা খোরমা রয়েছে।
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+অফার মূল্য কত?
+</summary>
+
+<p>
+বর্তমান বিশেষ অফার মূল্য ৭৯০ টাকা।
+নিয়মিত মূল্য ৯০০ টাকা।
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+কীভাবে অর্ডার করব?
+</summary>
+
+<p>
+অর্ডার ফর্মে আপনার নাম, মোবাইল নম্বর ও ঠিকানা দিয়ে
+অর্ডার কনফার্ম করুন।
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+ডেলিভারি কীভাবে হবে?
+</summary>
+
+<p>
+আপনার ঠিকানা অনুযায়ী ডেলিভারি/কুরিয়ার ব্যবস্থায়
+পণ্য পাঠানো হবে।
+</p>
+
+</details>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 Safa Khorma</p>
+
+<p>
+সাফা খোরমা — স্বাদ ও মানের সাথে
+</p>
+
+</footer>
+
+
+<!-- FLOATING ORDER -->
+
+<a href="#order" class="float-btn">
+🛒 অর্ডার করুন
+</a>
+
+
+<!-- ORDER SCRIPT -->
+
+<script>
+
+document.getElementById("orderForm")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+let name =
+document.getElementById("name").value;
+
+let phone =
+document.getElementById("phone").value;
+
+let address =
+document.getElementById("address").value;
+
+let quantity =
+document.getElementById("quantity").value;
+
+
+/*
+WhatsApp চালু করার সময়
+YOUR_WHATSAPP_NUMBER এর জায়গায়
+তোমার WhatsApp নম্বর বসাবে।
+
+Example:
+8801XXXXXXXXX
+*/
+
+let whatsapp =
+"YOUR_WHATSAPP_NUMBER";
+
+
+if(whatsapp === "YOUR_WHATSAPP_NUMBER"){
+
+alert(
+"অর্ডার ফর্ম প্রস্তুত আছে। পরে WhatsApp নম্বর যুক্ত করলে অর্ডার সরাসরি WhatsApp-এ যাবে।"
+);
+
+return;
+
+}
+
+
+let message =
+"সাফা খোরমা অর্ডার%0A%0A"+
+"নাম: "+encodeURIComponent(name)+
+"%0Aমোবাইল: "+encodeURIComponent(phone)+
+"%0Aঠিকানা: "+encodeURIComponent(address)+
+"%0Aপরিমাণ: "+encodeURIComponent(quantity)+" প্যাক";
+
+
+window.open(
+"https://wa.me/"+whatsapp+
+"?text="+message,
+"_blank"
+);
+
+});
+
+</script>
+
+</body>
+</html>
